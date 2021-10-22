@@ -5,6 +5,9 @@
 
 So far it's showing information on one tv show. After that I'll add a search bar and a list of shows marked as favourite on one side.
 
+- The backend will be hosted on Heroku and the repo will be here: https://github.com/luisabellan/tv-show-be
+
+
 
 ## Todo
 
