@@ -26,8 +26,9 @@ body {
 }
 
 .poster-img {
+  margin-top: 20px;
   width: 400px;
-  height: 600px;
+  height: auto;
 }
 .show-summary {
   width: fit-content;
