@@ -29,7 +29,7 @@ export default function App() {
   };
 
   if (!show) {
-    return <h2>Fetching data...</h2>;
+    return <h2 style={{color:'white'}}>Fetching data...</h2>;
   }
 
   return (
@@ -37,7 +37,7 @@ export default function App() {
       {console.log(show)}
       <img className="poster-img" src={show.image.original} alt={show.name} />
       <h1>{show.name}</h1>
-      {parse(show.summary)}
+      <p className="show-summary">{parse(show.summary)}</p>
       <Dropdown
         data-testid="dropDown"
         options={Object.keys(seasons)}
